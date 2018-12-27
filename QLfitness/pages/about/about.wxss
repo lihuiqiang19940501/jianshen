@@ -1,0 +1,59 @@
+/* pages/about/about.wxss */
+page{
+  text-align: center;
+}
+#banner{
+  width: 730rpx;
+  height: 280rpx;
+  padding:10rpx;
+  overflow: hidden;
+}
+#banner image{
+  width: 100%;
+  height: 98%;
+}
+.title{
+  text-align: center;
+  color: #666;
+  font-weight: bold;
+}
+.title0{
+  width: 310rpx;
+  height: 60rpx;
+  margin: 40rpx auto;
+  line-height: 50rpx;
+  background: #53D2DF;
+  color: #D747FA;
+  padding: 5rpx;
+  border-radius: 7rpx;
+}
+.title0 view{
+  width: 300rpx;
+  height: 50rpx;
+  margin: 5rpx 5rpx;
+  border: 1px dashed #fff;
+  border-radius: 7rpx;
+}
+/* 介绍详情 */
+.details{
+  width: 700rpx;
+  height: 1000rpx;
+  margin: 0 auto;
+  color: #666;
+  border: 5rpx solid #56D2E0;
+  border-radius: 10rpx;
+  text-align: left;
+}
+.details .box{
+  border-radius: 10rpx;
+  width: 640rpx;
+  height: 945rpx;
+  margin: 5rpx auto;
+  border: 5rpx dashed #56D2E0;
+  font-size: 15px;
+  padding: 20rpx;
+}
+.details .box text{
+  display:inline-block;
+  width: 60rpx;
+}

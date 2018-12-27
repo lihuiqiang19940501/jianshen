@@ -1,0 +1,119 @@
+/* publicpage/kecheng/kecheng.wxss */
+.top{
+font-size: 28px;
+margin-bottom: 20rpx;
+}
+.main{
+  width: 745rpx;
+  height: 700rpx;
+  border: 1px solid #aaa;
+  font-size: 15px;
+}
+.main view:nth-child(2){
+ position: relative;
+}
+.row{
+  width: 100%;
+  flex-flow: column;
+}
+.row view{
+height: 133rpx;
+}
+.time{
+  font-size: 10px;
+}
+.time text:nth-child(1){
+  margin-top: 50rpx;
+}
+.time text:nth-child(2){
+  position: absolute;
+  top: 110rpx;
+}
+.time text:nth-child(3){
+  position: absolute;
+  top: 145rpx;
+}
+.time text:nth-child(4){
+  position: absolute;
+  top: 240rpx;
+}
+.time text:nth-child(5){
+  position: absolute;
+  top: 350rpx;
+}
+.time text:nth-child(6){
+  position: absolute;
+  top: 420rpx;
+}
+.time text:nth-child(7){
+  position: absolute;
+  top: 550rpx;
+}
+.time text:nth-child(8){
+  position: absolute;
+  top: 620rpx;
+}
+.kecheng_class{
+  width: 50rpx;
+  flex-flow: column; 
+}
+.kecheng_class text{
+  width: 20rpx;
+  height: 200rpx;
+}
+.main .kecheng_class text:first-child{
+  height: 350rpx;
+  margin-top: 50rpx;
+}
+.flex{
+  display: flex;
+}
+.tableHead{
+  width: 100%;
+  height: 40rpx;
+  border: 1px solid #aaa;
+  display: flex;
+  justify-content: space-around;
+}
+.table{
+  border: 1px solid #aaa;
+   width: 100%;
+   display: flex;
+  flex-flow: column; 
+  font-size:10px;
+  color: #666; 
+}
+.table view{
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+}
+.table view.row{
+border: 1px solid #aaa;
+}
+.table view:nth-child(2){
+  height: 300rpx;
+}
+.table view:nth-child(3){
+  height: 200rpx;
+}
+.table view:nth-child(4){
+  height: 200rpx;
+}
+.row1 view,.row2 view,.row3 view{
+margin-top: 30rpx;
+}
+.row1 view:nth-child(2){
+  height: 100rpx;
+}
+.bottom{
+  font-size: 12px;
+  color:#aaa;
+}
+/* 按钮 */
+button{
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+}

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tel/tel",
+    "pages/activity/activity",
+    "pages/about/about",
+    "publicpage/kecheng/kecheng"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#434343",
+    "navigationBarTitleText": "强力健身会馆",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "网站首页",
+        "iconPath": "pages/static/home.png",
+        "selectedIconPath": "pages/static/home_action.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "最新活动",
+        "iconPath": "pages/static/hot.png",
+        "selectedIconPath": "pages/static/hot_action.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于强力建",
+        "iconPath": "pages/static/about.png",
+        "selectedIconPath": "pages/static/about_action.png"
+      },
+      {
+        "pagePath": "pages/tel/tel",
+        "text": "联系我们",
+        "iconPath": "pages/static/li.png",
+        "selectedIconPath": "pages/static/li_action.png"
+      }
+    ]
+  }
+}

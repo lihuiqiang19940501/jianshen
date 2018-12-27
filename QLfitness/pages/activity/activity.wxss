@@ -1,0 +1,47 @@
+/* pages/message/message.wxss */
+/*1:组件灰色背景*/
+page{
+  background-color:#f1f1f1;
+}
+/*2:卡片*/
+.card{
+  background-color: #fff;
+  border:1px solid #ddd;
+  border-radius: 20rpx;
+  margin:60rpx 20rpx;
+  padding:30rpx;
+  display: flex;         
+  /*设置弹性布局，按列排放*/
+  flex-direction: column;
+}
+/*3:标题*/
+.card-title{
+  font-size:20px;
+  margin-bottom: 20rpx;
+}
+/*4:日期*/
+.card-date{
+  font-size:14px;
+  color:#ccc;
+  padding-bottom:20rpx;
+  margin-bottom:20rpx;
+  border-bottom:1rpx solid #ddd;
+}
+/*5:图片*/
+.card-img{
+  width:100%;
+  height:300rpx;
+}
+/*6:描述*/
+.card-desc{
+  font-size:16px;
+  color:#333;
+  padding-bottom:20rpx;
+  border-bottom:1rpx solid #ddd;
+  margin:20rpx 0;
+}
+/*7:查看详细*/
+.card-rad{
+  font-size:14px;
+  color:#666;
+}

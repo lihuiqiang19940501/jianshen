@@ -1,0 +1,88 @@
+<view class="container">
+   <!-- 轮播图 -->
+    <view class="swiper">
+        <swiper autoplay="true" duration="1200" indicatorDots="true" interval="3000">
+            <swiper-item wx:for="{{list}}" wx:key="{{index}}">
+                <image class="nav-icon" mode="aspectFill" src="{{item.img_url}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 宫格 -->
+   <view class="nav" bindtap='nav'>
+        <view class="nav-item {{(index+1)%4==0?'nav-item-no-border':''}}" hoverClass="navigator-hover" url="" wx:for="{{imgs}}" wx:key="{{index}}" data-index='{{item.id}}' >
+            <image class="nav-icon" src="{{item.icon_url}}" lazy-load data-index='{{item.id}}'></image>
+            <view class="nav-title" data-index='{{item.id}}'>{{item.title}}</view>
+        </view>
+    </view>
+    <!-- 公告 -->
+    <view class='new'>
+        <image src='../static/audio.png' lazy-load></image>   
+        <text>到店咨询既送价值200元健身体验大礼包!</text>
+    </view>
+    <view class='lineT'>
+      <view class='line'></view>
+      <view class='lineTitle'>当月课程</view>
+      <view class='line'></view>
+    </view>
+    <view class='course'>
+        <image src='http://127.0.0.1:3000/img/course.jpg' lazy-load></image>
+        <view>2018年{{month}}月课程</view>
+    </view>
+    <view class='lineT'>
+      <view class='line'></view>
+      <view class='lineTitle'>明星学员</view>
+      <view class='line'></view>
+    </view>
+    <!-- 健身学员 -->
+    <view class='star'>
+      <view>
+        <navigator>
+          <image src='http://127.0.0.1:3000/img/star01.png' lazy-load></image>
+          <text>明星学员--李洁</text>
+        </navigator>
+        <navigator>
+          <image src='http://127.0.0.1:3000/img/star02.png' lazy-load></image>
+          <text>明星学员--孙慧</text>
+        </navigator>
+        <navigator>
+          <image src='http://127.0.0.1:3000/img/star03.png' lazy-load></image>
+          <text>明星学员--刘振兴</text>
+        </navigator>
+        <navigator>
+          <image src='http://127.0.0.1:3000/img/star04.png' lazy-load></image>
+          <text>明星学员--谢龙</text>
+        </navigator>
+      </view>
+    </view>
+    <view class='lineT'>
+      <view class='line'></view>
+      <view class='lineTitle'>健身套餐</view>
+      <view class='line'></view>
+    </view>
+     <!--健身套餐!  -->
+    <view  class='star'>  
+      <view>
+          <navigator>
+            <image src='http://127.0.0.1:3000/img/advertising.png' ></image>
+            <text>强力建身年卡XX元</text>
+          </navigator>
+          <navigator>
+            <image src='http://127.0.0.1:3000/img/advertising.png' ></image>
+            <text>强力建身季卡XX元</text>
+          </navigator>
+        </view>
+    </view>
+    <!-- <view class="commend">
+        <block wx:for="{{commend}}" wx:key="{{index}}">
+            <view class="commend-header-title">{{item.name}}</view>
+            <view class="commend-column">
+                <navigator class="commend-item" hoverClass="navigator-hover" wx:for="{{item.article}}" wx:for-item="subItem">
+                    <image class="commend-thumb" src="{{subItem.thumb}}"></image>
+                    <view class="commend-title">{{subItem.title}}</view>
+                </navigator>
+            </view>
+        </block>
+    </view> -->
+</view> 
+<!-- <import src="/we7/pages/templates/footer.wxml"></import>
+<template is="footerWx" data="{{...tabBar}}"></template> -->

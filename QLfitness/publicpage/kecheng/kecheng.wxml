@@ -1,0 +1,46 @@
+<!--publicpage/kecheng/kecheng.wxml-->
+<view class='top'>最新{{month}}月课程安排</view>
+<view class='flex main'>
+  <view class='flex kecheng_class'>
+  <text>综合健美厅</text><text>瑜伽室</text><text>动感单车</text>
+  </view>
+  <view class='flex kecheng_class time'>
+    <text>10点</text><text></text><text>19点</text><text>20点</text><text>18点</text><text>19点</text>
+    <text>18点</text><text>19点</text>
+  </view>
+  <view class='flex table'>
+      <view class='tableHead'>
+        <text>周一</text><text>周二</text><text>周三</text><text>周四</text><text>周五</text><text>周六</text><text>周日</text>
+      </view>
+      <view class='row row1'>
+        <view>
+          <text>肚皮舞</text><text>健身球</text><text>踏板</text><text>拉丁</text><text>健身球</text><text>踏板</text><text>踏板</text>
+        </view>
+        <view>
+          <text>爵士舞</text><text>健身球</text><text>街舞</text><text>健身球</text><text>瑜伽</text><text>瑜伽</text><text>肚皮舞</text>
+        </view>
+        <view>
+          <text>健身球</text><text>有氧</text><text>爵士舞</text><text>踏板</text><text>有氧</text><text>健身球</text><text>爵士舞</text>
+        </view>
+        
+      </view>
+      <view class='row row2'>
+        <view>
+          <text>流瑜伽</text><text>哈达瑜伽</text><text>太极瑜伽</text><text>太极瑜伽</text><text>哈达瑜伽</text><text>流瑜伽</text><text>太极瑜伽</text>
+        </view>
+        <view>
+          <text>哈达瑜伽</text><text>流瑜伽</text><text>太极瑜伽</text><text>哈达瑜伽 </text><text>流瑜伽</text><text>哈达瑜伽</text><text>太极瑜伽</text>
+        </view>
+      </view>
+       <view class='row row3'>
+        <view>
+          <text>有氧</text><text>动感单车</text><text>有氧</text><text>动感单车</text><text>有氧</text><text>动感单车</text><text>有氧</text>
+        </view>
+        <view>
+          <text>动感单车</text><text>有氧</text><text>动感单车</text><text>有氧</text><text>动感单车</text><text>有氧</text><text>动感单车</text>
+        </view>
+      </view>
+  </view>
+</view>
+<text class='bottom'>*具体课程以本会馆为准,如有改动不另行通知.</text>
+<button bindtap='backIndex'>返回主页</button>

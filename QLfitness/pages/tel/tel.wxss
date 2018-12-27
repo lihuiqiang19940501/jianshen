@@ -1,0 +1,54 @@
+/* pages/tel/tel.wxss */
+image.tel_bg{
+  width: 100%;
+}
+.title{
+  width: 600rpx;
+  height: 150rpx;
+  border: 1px solid #aaa;
+  line-height: 150rpx;
+  margin-left:-300rpx; 
+  background: #fff;
+  position: absolute;
+  top:360rpx;
+  left: 50%;
+  font-size: 25px;
+  color: #666;
+}
+
+/* 联系列表 */
+.first{
+  margin-top:50rpx;
+}
+.tab{
+color:#777;
+border-bottom:1px solid #eee;
+height:65rpx;
+line-height:65rpx;
+padding-left:15rpx;
+position:relative;
+font-size: 15px;
+}
+.tab image{
+width:40rpx;
+height:40rpx;
+position: absolute;
+left: 5rpx;
+top:10rpx;
+}
+.tab view{
+  display: flex;
+  margin-left: 50rpx;
+  display: flex;
+  justify-content: space-between
+}
+.tab view text:last-child{
+  color:#000;
+  margin-right: 10rpx;
+  font-size: 13px;
+}
+.hot view{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}

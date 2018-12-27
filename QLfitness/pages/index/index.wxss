@@ -1,0 +1,172 @@
+page{
+  text-align: center;
+}
+.container {
+    background: #e6e6e6;
+}
+
+.nav,.star>view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+}
+
+.nav-item {
+    width: 186rpx;
+    height: 200rpx;
+    border: #c9c9c9 solid 1px;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+}
+
+.nav-item.nav-item-no-border {
+    border-right: none;
+}
+
+.nav-item .nav-icon {
+    width: 88rpx;
+    height: 88rpx;
+    align-items: center;
+    margin-top: 38rpx;
+}
+
+.nav-item .nav-title,.commend-item .commend-title {
+    color: #000;
+    margin-top: 20rpx;
+    font-size: 24rpx;
+}
+
+.swiper {
+    width: 100%;
+    height: 350rpx;
+}
+
+.swiper swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper image {
+    width: 100%;
+    height: 100%;
+}
+.new image{
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+.new text{
+  font-size:13px;
+  color:red;
+}
+.lineT{
+  display: flex;
+  height: 50rpx;
+  width: 100%;
+  background: #fff;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.lineT .line{
+  height: 1rpx;
+  width: 35%;
+  border-bottom: 1px solid #000;
+  vertical-align: middle;
+  margin-top:18rpx; 
+}
+.lineT .lineTitle{
+  font-size: 15px;
+  color: #4e4e4e
+}
+/* 当月课程模块 */
+.course{
+  padding: 0 10rpx 0 10rpx;
+  width: 100%;
+  height: 400rpx;
+  background: #fff;
+  position: relative;
+}
+.course image{
+  width: 100%;
+  height:400rpx;
+  border-radius:4rpx;
+}
+.course view{
+  height: 50rpx;
+  width: 730rpx;
+  color: #fff;
+  position: absolute;
+  bottom:0rpx;
+  left: 10rpx;
+  font-size: 16px;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  }
+/* 明星学员 */
+  .star{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #fff;
+  }
+  /*.star>view{
+    display: flex;
+    flex-direction: column;
+    width: 360rpx;
+    height: 220rpx;
+    text-align: center;
+  }*/
+  .star>view navigator{
+    width: 370rpx;
+    height: 300rpx;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+    }
+  .star>view image{
+    width: 360rpx;
+    height: 220rpx;
+    margin: 5rpx;
+  }
+  .star>view text{
+    font-size: 14px;
+    color: #4e4e4e;
+  }
+/* .commend {
+
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+    background: #fff;
+}
+
+.commend .commend-column {
+    display: flex;
+}
+
+.commend .commend-header-title {
+    text-align: left;
+    line-height: 98rpx;
+    font-size: 30rpx;
+    padding-left: 15rpx;
+}
+
+.commend .commend-item {
+    display: flex;
+    flex-direction: column;
+    border-right: #c9c9c9 solid 1px;
+    padding-bottom: 60rpx;
+    width: 372rpx;
+}
+
+.commend .commend-item image {
+    width: 100%;
+    height: 210rpx;
+} */

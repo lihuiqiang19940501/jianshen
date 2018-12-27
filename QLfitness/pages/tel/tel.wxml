@@ -1,0 +1,45 @@
+<image class="tel_bg" src="http://127.0.0.1:3000/img/tel_bg.jpg"></image>
+<view class='title'>
+  强力建休闲会馆
+</view>
+<view class='tab first'>
+  <image src='../static/icons/phone.png'></image>
+  <view>
+    <text>0371-1234567</text><text bindtap='phoneG'>点击拨打</text>
+  </view>
+</view>
+<view class='tab'>
+  <image src='../static/icons/phone.png'></image>
+  <view>
+    <text>13888888888</text><text bindtap='phoneS'>点击拨打</text>
+  </view>
+</view>
+<view class='tab'>
+  <image src='../static/icons/wechat.png'></image>
+  <view>
+    <text>qianglijian</text><text></text>
+  </view>
+</view>
+<view class='tab'>
+  <image src='../static/icons/qq.png'></image>
+  <view>
+    <text>1313111</text><text></text>
+  </view>
+</view>
+<view class='tab'>
+  <image src='../static/icons/email.png'></image>
+  <view>
+    <text>qianglijian@163.com</text><text></text>
+  </view>
+</view>
+<view class='tab'>
+  <image src='../static/icons/address.png'></image>
+  <view>
+    <text>郑州市郑东新区商鼎路188号1903</text><text bindtap='ditu'>查看地图</text>
+  </view>
+</view>
+<view class='hot'>
+  <view>
+    <text>*到店咨询既送价值200元健身体验大礼包*</text>
+  </view>
+</view>
